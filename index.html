@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MountainRest</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="" alt="Logo">
+            </div>
+
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link">Main</a></li>
+                <li><a href="#drawing-section" class="nav-link">Drawing</a></li>
+                <li><a href="#" class="nav-link">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <h1 class="title momo-signature">MountainRest</h1>
+        <p class="description changa-one-regular">
+            Find your perfect mountain getaway. Browse and book hand-picked cabins, chalets, and lodges in stunning alpine locations. Our platform offers detailed filters for amenities, location, and activities—from skiing and hiking to cozy fireside relaxation.
+            Get inspired by travel guides, trail tips, and local secrets to plan an unforgettable mountain adventure. Your journey to the peaks starts here.
+        </p>
+
+        <div class="button-container">
+            <button class="glow-btn" id="glowButton">
+                <span class="btn-text">Begin Draw</span>
+                <div class="glow-effect"></div>
+            </button>
+        </div>
+    </main>
+
+    <!-- Секция с рисованием -->
+    <section id="drawing-section" class="drawing-section">
+        <div class="field-conteiner">
+            <div class="color-palette">
+                <div class="color-cell red selected"></div>
+                <div class="color-cell green"></div>
+                <div class="color-cell blue"></div>
+                <div class="color-cell yellow"></div>
+                <div class="color-cell skyblue"></div>
+                <div class="color-cell eraser">
+                    <img src="" alt="Eraser">
+                </div>
+                <div class="tool-cell fill-tool">
+                    <img src="" alt="Fill Tool">
+                </div>
+            </div>
+            <div class="field"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
